@@ -3,9 +3,10 @@ export const products = [
     name: "Samono Hand Frother",
     description: "Bisa dicas, putaran sangat kuat, dan mudah dibersihkan. Cocok untuk membuat cappuccino dan latte art.",
     image: "/products/samono-frother.jpg",
-    // video: "https://youtube.com/watch?v=YOUR_VIDEO_ID",
+    video: "https://youtube.com/shorts/foBStCIrQWQ?feature=share",
     links: {
       shopee: "https://s.shopee.co.id/8ARPL4Lllk",
+      tiktok: "https://vt.tokopedia.com/t/ZS9Rju2j5gAKx-y9qLS/"
     },
   },
   {
@@ -15,6 +16,17 @@ export const products = [
     video: "https://youtu.be/e2yh7ctlw_0",
     links: {
       shopee: "https://s.shopee.co.id/807z9wANRi",
+      tiktok: "https://vt.tokopedia.com/t/ZS9RjuUGFC98D-xkEAM/"
+    },
+  },
+  {
+    name: "Timemore Chestnut C3S",
+    description: "Grinder manual dengan burr steel yang tajam dan konsisten. Cocok untuk yang suka grinding kopi dengan tangan untuk hasil yang lebih segar.",
+    image: "/products/timemore-chestnut-c3s.jpg",
+    video: "https://youtube.com/shorts/rc4mtYaTMRY?feature=share",
+    links: {
+      shopee: "https://s.shopee.co.id/7KsJo70EFv",
+      tiktok: "https://vt.tokopedia.com/t/ZS9RjuUGFC98D-xkEAM/"
     },
   },
 ];

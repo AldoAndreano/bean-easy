@@ -65,7 +65,7 @@ export default function GearPage() {
                       Tokopedia
                     </a>
                   )} */}
-                  {/* {product.links.tiktok && (
+                  {product.links.tiktok && (
                     <a
                       className="store-button tiktok"
                       href={product.links.tiktok}
@@ -74,7 +74,7 @@ export default function GearPage() {
                     >
                       TikTok Shop
                     </a>
-                  )} */}
+                  )}
                   {product.video && (
                     <a
                       className="store-button youtube"
