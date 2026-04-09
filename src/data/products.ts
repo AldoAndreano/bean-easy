@@ -29,4 +29,22 @@ export const products = [
       tiktok: "https://vt.tokopedia.com/t/ZS9RjuUGFC98D-xkEAM/"
     },
   },
+  {
+    name: "Gelas Tekstur Korea",
+    description: "Gelas dengan tekstur unik yang memberikan pengalaman minum kopi yang berbeda. Cocok untuk yang suka estetika dan ingin menambah keseruan saat menikmati kopi.",
+    image: "/products/gelas-korea.jpg",
+    video: "",
+    links: {
+      shopee: "https://s.shopee.co.id/9fGpMQImTk"
+    },
+  },
+  {
+    name: "Milk Jug OTC",
+    description: "Stainless steel milk jug ukuran 350mL untuk steaming dan frothing susu. Ideal untuk membuat microfoam yang sempurna untuk espresso drinks.",
+    image: "/products/milk-jug-one-two-cups.jpg",
+    video: "https://youtube.com/shorts/foBStCIrQWQ?feature=share",
+    links: {
+      shopee: "https://s.shopee.co.id/7AZUO0WaMV"
+    },
+  },
 ];
