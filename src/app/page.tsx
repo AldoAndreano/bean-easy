@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/next";
+
 export default function HomePage() {
   return (
     <main style={{
@@ -6,6 +8,8 @@ export default function HomePage() {
         padding: "4rem 1rem",
         lineHeight: 1.6,
     }}>
+      <Analytics />
+
       <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
         Bean Easy ☕
       </h1>
