@@ -1,5 +1,25 @@
 export const products = [
   {
+    name: "Vesper Manual Espresso Maker",
+    description: "Espresso maker manual dengan desain elegan dan portabel. Cocok untuk yang ingin menikmati espresso berkualitas tinggi di mana saja tanpa perlu mesin besar.",
+    image: "/products/vesper-orbit.jpg",
+    video: "https://youtube.com/shorts/RyHtWg9fOLo?feature=share",
+    links: {
+      shopee: "https://s.shopee.co.id/9ALlakO8bz",
+      tiktok: "https://vt.tokopedia.com/t/ZS9Y7CmLFLuva-mumSj/"
+    },
+  },
+  {
+    name: "Food Thermometer",
+    description: "Termometer makanan untuk mengukur suhu kopi saat brewing atau steaming susu. Cocok untuk yang ingin memastikan suhu ideal untuk hasil kopi yang optimal.",
+    image: "/products/food-thermometer.jpg",
+    video: "https://youtube.com/shorts/dKqXTMkdkmU?feature=share",
+    links: {
+      shopee: "https://s.shopee.co.id/7AahARmNCi",
+      tiktok: "https://vt.tokopedia.com/t/ZS9Y75NVfE8Dk-0LERb/"
+    },
+  },
+  {
     name: "Samono Hand Frother",
     description: "Bisa dicas, putaran sangat kuat, dan mudah dibersihkan. Cocok untuk membuat cappuccino dan latte art.",
     image: "/products/samono-frother.jpg",
