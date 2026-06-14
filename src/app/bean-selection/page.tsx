@@ -1,15 +1,15 @@
-import { products } from "@/data/products-gear";
+import { products } from "@/data/products-coffee";
 import { Analytics } from "@vercel/analytics/next";
 import Image from "next/image";
 
-export default function GearPage() {
+export default function BeanSelectionPage() {
   return (
     <main style={{ maxWidth: 900, margin: "0 auto", padding: "4rem 1rem" }}>
       <Analytics />
       
-      <h1>Bean Easy Gear ☕</h1>
+      <h1>Beans Selection ☕</h1>
 
-      <p>Simple tools I use to make great coffee without spending a lot.</p>
+      <p>My curated selection of high-quality coffee beans from Indonesian roastery.</p>
 
       <div
         style={{

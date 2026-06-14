@@ -37,7 +37,7 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="desktop-menu">
           <Link href="/gear">Gear</Link>
-          <Link href="/recipes">Recipes</Link>
+          <Link href="/bean-selection">Coffee Beans</Link>
         </div>
 
         {/* Mobile Button */}
@@ -69,8 +69,8 @@ export default function Navbar() {
           <Link href="/gear" onClick={() => setIsOpen(false)}>
             Gear
           </Link>
-          <Link href="/recipes" onClick={() => setIsOpen(false)}>
-            Recipes
+          <Link href="/bean-selection" onClick={() => setIsOpen(false)}>
+            Coffee Beans
           </Link>
         </div>
       )}

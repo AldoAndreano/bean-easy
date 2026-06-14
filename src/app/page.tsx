@@ -1,6 +1,12 @@
+"use client"
+
 import { Analytics } from "@vercel/analytics/next";
+import Image from "next/image";
+import { useState } from "react";
 
 export default function HomePage() {
+  const [isOpen, setIsOpen] = useState(false);
+  
   return (
     <main style={{
         maxWidth: 720,
@@ -10,19 +16,93 @@ export default function HomePage() {
     }}>
       <Analytics />
 
-      <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
-        Bean Easy ☕
-      </h1>
+      <div style={{
+        display: 'flex',
+        gap: '1rem',
+        justifyContent: 'center',
+        flexWrap: 'wrap',
+      }}>
+        <div>
+          <button
+            onClick={() => window.location.href = '/gear'}
+            style={{
+              display: 'block',
+              width: '250px',
+              height: '250px',
+              padding: '1rem',
+              background: '#D6B588',
+              color: '#fff',
+              border: 'none',
+              borderRadius: 6,
+              textAlign: 'center',
+              cursor: 'pointer',
+            }}
+          >
+            <h3 
+              style={{ 
+                margin: '0 0 170px 0',
+                fontSize: '25px',
+                color: '#422701'
+              }}>
+                {'Coffee Gears'}
+            </h3>
+            <Image
+              src={'/products/gear.png'}
+              alt={'/products/gear.png'}
+              width={100}
+              height={100}
+              style={{
+                width: "150px",
+                height: "150px",
+                objectFit: "cover",
+                borderRadius: "8px",
+                margin: "-150px 0 0 0",
+              }}
+            />
+          </button>
+        </div>
 
-      <p style={{ fontSize: "1.1rem", lineHeight: 1.6 }}>
-        Life happens, coffee helps.
-        <br />
-        Simple brewing, honest gear, no fuss.
-      </p>
-
-      <div style={{ marginTop: "2rem" }}>
-        <a href="/gear">→ My recommended gear</a>
+        <div>
+          <button
+            onClick={() => window.location.href = '/bean-selection'}
+            style={{
+              display: 'block',
+              width: '250px',
+              height: '250px',
+              padding: '1rem',
+              background: '#D6B588',
+              color: '#fff',
+              border: 'none',
+              borderRadius: 6,
+              textAlign: 'center',
+              cursor: 'pointer',
+            }}
+          >
+            <h3 
+              style={{ 
+                margin: '0 0 170px 0',
+                fontSize: '25px',
+                color: '#422701'
+              }}>
+                {'Coffee Beans'}
+            </h3>
+            <Image
+              src={'/products/coffee-bag.png'}
+              alt={'/products/coffee-bag.png'}
+              width={100}
+              height={100}
+              style={{
+                width: "150px",
+                height: "150px",
+                objectFit: "cover",
+                borderRadius: "8px",
+                margin: "-150px 0 0 0",
+              }}
+            />
+          </button>
+        </div>
       </div>
+
     </main>
   );
 }
