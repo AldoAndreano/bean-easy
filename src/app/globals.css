@@ -1,16 +1,26 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --coffee-primary: #6B4F3B;
-  --coffee-accent: #C8A27A;
-  --coffee-bg: #FAF7F2;
-  --coffee-text: #2A2A2A;
+  --background: #fdfaf6;
+  --foreground: #3b2818;
+  --coffee-primary: #5c3a21;
+  --coffee-accent: #b5835a;
+  --coffee-bg: #f4ece1;
+  --coffee-text: #2a1f1a;
+  --coffee-card: #ffffff;
+  --coffee-card-hover: #fcf9f5;
+  --coffee-shadow: rgba(92, 58, 33, 0.15);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1a120b;
+    --foreground: #e6d3c3;
+    --coffee-primary: #d19a6a;
+    --coffee-accent: #e5b78f;
+    --coffee-bg: #2d1f14;
+    --coffee-text: #f0e6dd;
+    --coffee-card: #241910;
+    --coffee-card-hover: #322316;
+    --coffee-shadow: rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -23,9 +33,10 @@ body {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--coffee-bg);
-  color: var(--coffee-text);
+  background-color: var(--background);
+  color: var(--foreground);
   font-family: system-ui, -apple-system, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 * {
@@ -38,6 +49,7 @@ a {
   color: var(--coffee-primary);
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 a:hover {
@@ -60,17 +72,20 @@ a:hover {
 }
 
 .product-card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
+  border: 1px solid rgba(181, 131, 90, 0.2);
+  border-radius: 12px;
   padding: 1.5rem;
-  background: white;
+  background: var(--coffee-card);
   display: flex;
   flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  box-shadow: 0 4px 6px var(--coffee-shadow);
 }
 
 .product-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px var(--coffee-shadow);
+  background: var(--coffee-card-hover);
 }
 
 @media (min-width: 768px) {
@@ -91,22 +106,34 @@ a:hover {
   text-decoration: none;
   color: white;
   display: inline-block;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.store-button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 
 /* Marketplace colors */
+.shopee { background-color: #ee4d2d; }
+.tokopedia { background-color: #42b549; }
+.tiktok { background-color: #000000; }
+.youtube { background-color: #ff0000; }
 
-.shopee {
-  background-color: #ee4d2d;
+/* Blob Animations */
+@keyframes blob-bounce {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
 }
 
-.tokopedia {
-  background-color: #42b549;
+.animate-blob {
+  animation: blob-bounce 7s infinite;
 }
-
-.tiktok {
-  background-color: #000000;
+.animation-delay-2000 {
+  animation-delay: 2s;
 }
-
-.youtube {
-  background-color: #ff0000;
+.animation-delay-4000 {
+  animation-delay: 4s;
 }

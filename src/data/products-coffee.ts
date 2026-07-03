@@ -18,4 +18,24 @@ export const products = [
       tiktok: "https://vt.tokopedia.com/t/ZS9jAqYBuQvuQ-TC7pp/"
     },
   },
+  {
+    name: "Kraken Blend for Espresso by Three Folks Coffee",
+    description: "Blend kopi yang memiliki karakter rasa dark chocolate dan orange. Cocok untuk yang suka kopi dengan rasa manis dan body yang medium.",
+    image: "/products/three-folks-kraken-blend.jpg",
+    video: "https://youtube.com/shorts/0kWkK244MZ0?feature=share",
+    links: {
+      shopee: "https://s.shopee.co.id/9fJ0qOSU7w",
+      tiktok: "https://vt.tokopedia.com/t/ZS96TNpr9NqKY-ds27K/"
+    }
+  },
+  {
+    name: "Toraja dengan proses Honey by Hayasa Coffee",
+    description: "Kopi dengan karakter rasa manis dan body yang medium. Cocok untuk yang suka kopi dengan rasa manis dan body yang medium.",
+    image: "/products/hayasa-toraja-honey.jpg",
+    video: "https://youtube.com/shorts/hJGnwpFmqVg?feature=share",
+    links: {
+      shopee: "https://s.shopee.co.id/5q6IHdeCsj",
+      tiktok: "https://vt.tokopedia.com/t/ZS96TFEnB1CkC-WdieB/"
+    }
+  }
 ];
