@@ -37,5 +37,14 @@ export const products = [
       shopee: "https://s.shopee.co.id/5q6IHdeCsj",
       tiktok: "https://vt.tokopedia.com/t/ZS96TFEnB1CkC-WdieB/"
     }
+  },
+  {
+    name: "Java Morning Natural by Wilcoff",
+    description: "Kopi yang ringan dan manis dengan sedikit aroma rempah, cocok untuk ngopi harian.",
+    image: "/products/wilcoff-java-morning.jpg",
+    video: "https://youtube.com/shorts/yVz6foApNoU?feature=share",
+    links: {
+      tiktok: "https://vt.tokopedia.com/t/ZS9BSq67puEbY-RaTPb/"
+    }
   }
 ];
