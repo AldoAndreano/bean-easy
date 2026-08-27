@@ -1,5 +1,14 @@
 export const products = [
   {
+    name: "Java Morning Natural by Wilcoff",
+    description: "Kopi yang ringan dan manis dengan sedikit aroma rempah, cocok untuk ngopi harian.",
+    image: "/products/wilcoff-java-morning.jpg",
+    video: "https://youtube.com/shorts/yVz6foApNoU?feature=share",
+    links: {
+      tiktok: "https://vt.tokopedia.com/t/ZS9BSq67puEbY-RaTPb/"
+    }
+  },
+  {
     name: "Testi Yirgacheffe by Koro",
     description: "Kopi yang paling berasa floralnya menurut BeanEasy. Cocok untuk yang suka kopi dengan rasa yang kompleks dan floral.",
     image: "/products/koro-testi-yirgacheffe.jpg",
@@ -36,15 +45,6 @@ export const products = [
     links: {
       shopee: "https://s.shopee.co.id/5q6IHdeCsj",
       tiktok: "https://vt.tokopedia.com/t/ZS96TFEnB1CkC-WdieB/"
-    }
-  },
-  {
-    name: "Java Morning Natural by Wilcoff",
-    description: "Kopi yang ringan dan manis dengan sedikit aroma rempah, cocok untuk ngopi harian.",
-    image: "/products/wilcoff-java-morning.jpg",
-    video: "https://youtube.com/shorts/yVz6foApNoU?feature=share",
-    links: {
-      tiktok: "https://vt.tokopedia.com/t/ZS9BSq67puEbY-RaTPb/"
     }
   }
 ];
