@@ -1,5 +1,15 @@
 export const products = [
   {
+    name: "Full Arabica Espresso by Collins",
+    description: "Full Arabica Espresso dengan karakter rasa dark chocolate dan caramel. Cocok untuk yang suka kopi susu dengan rasa manis dan body yang medium.",
+    image: "/products/collins-arabica-espresso.jpg",
+    video: "https://youtube.com/shorts/BtlbehmG7dg?feature=share",
+    links: {
+      tiktok: "https://vt.tokopedia.com/t/ZS9DRXHny7UdY-zQD73/",
+      shopee: "https://s.shopee.co.id/9AP2EDGvu5"
+    }
+  },
+  {
     name: "Java Morning Natural by Wilcoff",
     description: "Kopi yang ringan dan manis dengan sedikit aroma rempah, cocok untuk ngopi harian.",
     image: "/products/wilcoff-java-morning.jpg",
