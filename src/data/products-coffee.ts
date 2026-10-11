@@ -10,6 +10,16 @@ export const products = [
     }
   },
   {
+    name: "Arabica Gayo by Cold Crafter",
+    description: "Kopi khas Gayo dengan karakter rasa floral dan body tebal. Cocok untuk yang suka kopi dengan rasa yang kompleks dan floral.",
+    image: "/products/cold-crafter-gayo.jpg",
+    video: "https://youtube.com/shorts/8dutDIW3PTs?feature=share",
+    links: {
+      tiktok: "https://vt.tokopedia.com/t/ZS9DR4xdH1nxh-q2x65/",
+      shopee: "https://s.shopee.co.id/7KxO37vGGT"
+    }
+  },
+  {
     name: "Java Morning Natural by Wilcoff",
     description: "Kopi yang ringan dan manis dengan sedikit aroma rempah, cocok untuk ngopi harian.",
     image: "/products/wilcoff-java-morning.jpg",

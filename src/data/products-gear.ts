@@ -1,5 +1,15 @@
 export const products = [
   {
+    name: "Sulthon Leva Espresso Maker",
+    description: "Espresso maker manual dengan desain elegan dan portabel. Cocok untuk yang ingin menikmati espresso berkualitas tinggi di mana saja tanpa perlu mesin besar.",
+    image: "/products/sulthon-leva.jpg",
+    video: "https://youtu.be/_hYwG31Ktj4",
+    links: {
+      shopee: "https://s.shopee.co.id/6Algi0qquM",
+      tiktok: "https://vt.tokopedia.com/t/ZS9D3M1ru45uG-ON9vJ/"
+    },
+  },
+  {
     name: "French Press",
     description: "Alat seduh kopi dengan metode immersion yang menghasilkan kopi dengan body lebih penuh. Cocok untuk yang suka kopi dengan rasa yang lebih kaya dan tekstur yang lebih berat.",
     image: "/products/french-press.jpg",
@@ -7,16 +17,6 @@ export const products = [
     links: {
       shopee: "https://s.shopee.co.id/7KubKFaXnI",
       tiktok: "https://vt.tokopedia.com/t/ZS9jApK8Hhef9-dL86v/"
-    },
-  },
-  {
-    name: "Vesper Manual Espresso Maker",
-    description: "Espresso maker manual dengan desain elegan dan portabel. Cocok untuk yang ingin menikmati espresso berkualitas tinggi di mana saja tanpa perlu mesin besar.",
-    image: "/products/vesper-orbit.jpg",
-    video: "https://youtube.com/shorts/RyHtWg9fOLo?feature=share",
-    links: {
-      shopee: "https://s.shopee.co.id/9ALlakO8bz",
-      tiktok: "https://vt.tokopedia.com/t/ZS9Y7CmLFLuva-mumSj/"
     },
   },
   {
